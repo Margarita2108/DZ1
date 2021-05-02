@@ -1,4 +1,4 @@
-# 1 задание
+# 1 задание 
 duration = int(input("Введите колличество секунд:  "))
 year = duration // 31536000
 dey = (duration % 31536000) // 86400
@@ -17,7 +17,7 @@ elif minutes > 0:
 else:
     print(f"{sec} сек")
 
-# 2 задание
+# 2 задание 
 numbers = []
 for idx in range(1, 1000, 2):
     numbers.append((idx ** 3))
@@ -47,7 +47,7 @@ for digit in numbers:
         sum_number += number
 print(sum_number)
 
-# 3 задание
+# 3 задание 
 my_percent = int(input("Введите количество процентов:  "))
 if my_percent % 10 == 1:
     word = 'процент'
